@@ -1,0 +1,130 @@
+POST http://localhost:3000/registerAdmin
+Content-Type: application/json
+
+{
+    "username":"achong",
+    "password":"1111",
+    "name":"supervisa",
+    "email":"achong@gmail.com",
+    "phoneNumber":"0123456343",
+    "role":"Admin"
+}
+
+###
+POST http://localhost:3000/loginAdmin
+Content-Type: application/json
+
+{
+    "username":"achong",
+    "password":"1111"
+}
+
+###
+GET http://localhost:3000/readAdmin
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDllZjZkZDA5Y2U0ZDdiNzQ1NDVjOGQiLCJ1c2VybmFtZSI6ImFjaG9uZyIsInBhc3N3b3JkIjoiJDJiJDEwJHgzUWRWY3R4NDFDQVQzQVJJNnFtcmVKTTloSUgyRXRkVko1blUxU00wYkNzbFJhaUdmUXgyIiwibmFtZSI6InN1cGVydmlzYSIsImVtYWlsIjoiYWNob25nQGdtYWlsLmNvbSIsInBob25lTnVtYmVyIjoiMDEyMzQ1NjM0MyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY4ODEzOTQ5MCwiZXhwIjoxNjg4MTQ2NjkwfQ.e9x4BrXCMctMJfnejIhryA_bjQwng9sHbpIyWqfKtUk
+
+
+
+
+
+
+
+###
+POST http://localhost:3000/registerSecurity
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDllZjZkZDA5Y2U0ZDdiNzQ1NDVjOGQiLCJ1c2VybmFtZSI6ImFjaG9uZyIsInBhc3N3b3JkIjoiJDJiJDEwJHgzUWRWY3R4NDFDQVQzQVJJNnFtcmVKTTloSUgyRXRkVko1blUxU00wYkNzbFJhaUdmUXgyIiwibmFtZSI6InN1cGVydmlzYSIsImVtYWlsIjoiYWNob25nQGdtYWlsLmNvbSIsInBob25lTnVtYmVyIjoiMDEyMzQ1NjM0MyIsInJvbGUiOiJBZG1pbiIsImlhdCI6MTY4ODEzOTQ5MCwiZXhwIjoxNjg4MTQ2NjkwfQ.e9x4BrXCMctMJfnejIhryA_bjQwng9sHbpIyWqfKtUk
+Content-Type: application/json
+
+{
+    "username":"Security004",
+    "password":"2222",
+    "name":"2222",
+    "email":"anchg@gmail.com",
+    "phoneNumber":"0123654789"
+}
+
+###
+POST http://localhost:3000/loginSecurity
+Content-Type: application/json 
+
+{
+    "username":"Security004",
+    "password":"2222"
+}
+
+###
+GET http://localhost:3000/readSecurity
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDllZjc0MDA5Y2U0ZDdiNzQ1NDVjOGYiLCJ1c2VybmFtZSI6IlNlY3VyaXR5MDA0IiwicGFzc3dvcmQiOiIkMmIkMTAkLnJnY1pjSVRIQzRzVlhvOVN4OWFnT0ladFpSRWlKUEFhSUxmenVsbzlsbUFHR1IwUDJWODIiLCJuYW1lIjoiMjIyMiIsImVtYWlsIjoiYW5jaGdAZ21haWwuY29tIiwicGhvbmVOdW1iZXIiOiIwMTIzNjU0Nzg5Iiwicm9sZSI6IlNlY3VyaXR5IiwidmlzaXRvcnMiOltdLCJpYXQiOjE2ODgxMzk2MTksImV4cCI6MTY4ODE0NjgxOX0.CWBlBj7ch--sBMCzj0fXyMMMZPzFNMBZWWKhSTOpLnI
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost:3000/registerVisitor
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDk5ZWM0YjUwMmYyZmVlMDE1NWQ2N2YiLCJ1c2VybmFtZSI6IlNlY3VyaXR5MDAyIiwicGFzc3dvcmQiOiIkMmIkMTAkdHVMRVdTTTVNM1FyTEdBczJyUGNJdW11bE93ZGljalRnNmZUVnUuR003aFc3VjFJSm10SWUiLCJuYW1lIjoiTXIgQWNob25nIiwiZW1haWwiOiJhbmNob25nQGdtYWlsLmNvbSIsInBob25lTnVtYmVyIjoiMDEyMzQ1NDc4OSIsInJvbGUiOiJTZWN1cml0eSIsInZpc2l0b3JzIjpbXSwiaWF0IjoxNjg3ODA5MTMzLCJleHAiOjE2ODc4MTYzMzN9.ypUX84LRz4O8Jz67S8L4G3SHkgpWKBoS2g8NtxuSS90
+Content-Type: application/json
+
+{
+    "username":"zarip",
+    "password":"1111",
+    "name":"Mr zaripudin",
+    "icNumber":"020426082207",
+    "company":"ZAEF Company",
+    "vehicleNumber":"FLS1234",
+    "email":"zaef@gmail.com",
+    "phoneNumber":"0135404015"  
+}
+
+###
+POST http://localhost:3000/loginVisitor
+Content-Type: application/json
+
+{
+    "username":"az12",
+    "password":"1244"
+}
+
+###
+GET http://localhost:3000/readVisitor
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDk5ZWQyYjUwMmYyZmVlMDE1NWQ2ODAiLCJ1c2VybmFtZSI6ImF6MTIiLCJwYXNzd29yZCI6IiQyYiQxMCR0aEJkQ1Nid0JjSVI1OFJnZk9vbnIuZndyRnZ5enBDYWdDbFNzU01TVGhVUk1CODdjUi9RLiIsIm5hbWUiOiJNciBBeiBIYWtpbSIsImVtYWlsIjoiY29uZ0BnbWFpbC5jb20iLCJTZWN1cml0eSI6IlNlY3VyaXR5MDAyIiwiY29tcGFueSI6IkFNIENvbXBhbnkiLCJ2ZWhpY2xlTnVtYmVyIjoidmN0MTIzNCIsImljTnVtYmVyIjoiMDIwNDI2MDgyMjA3IiwicGhvbmVOdW1iZXIiOiIwMTMxMTA0MDE1Iiwicm9sZSI6IlZpc2l0b3IiLCJyZWNvcmRzIjpbXSwiaWF0IjoxNjg3ODA5MzQwLCJleHAiOjE2ODc4MTY1NDB9.47MJI3qI-8CnqYn6ea09v7KMvhgj7JTY-KeSsaSoYEk
+
+
+###
+POST http://localhost:3000/checkIn
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDk5ZWQyYjUwMmYyZmVlMDE1NWQ2ODAiLCJ1c2VybmFtZSI6ImF6MTIiLCJwYXNzd29yZCI6IiQyYiQxMCR0aEJkQ1Nid0JjSVI1OFJnZk9vbnIuZndyRnZ5enBDYWdDbFNzU01TVGhVUk1CODdjUi9RLiIsIm5hbWUiOiJNciBBeiBIYWtpbSIsImVtYWlsIjoiY29uZ0BnbWFpbC5jb20iLCJTZWN1cml0eSI6IlNlY3VyaXR5MDAyIiwiY29tcGFueSI6IkFNIENvbXBhbnkiLCJ2ZWhpY2xlTnVtYmVyIjoidmN0MTIzNCIsImljTnVtYmVyIjoiMDIwNDI2MDgyMjA3IiwicGhvbmVOdW1iZXIiOiIwMTMxMTA0MDE1Iiwicm9sZSI6IlZpc2l0b3IiLCJyZWNvcmRzIjpbXSwiaWF0IjoxNjg3ODA5MzQwLCJleHAiOjE2ODc4MTY1NDB9.47MJI3qI-8CnqYn6ea09v7KMvhgj7JTY-KeSsaSoYEk
+Content-Type: application/json
+
+{
+    "recordID":"Record003",
+    "purpose":"Bidding"
+}
+
+###
+PATCH http://localhost:3000/checkOut
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDk5ZWQyYjUwMmYyZmVlMDE1NWQ2ODAiLCJ1c2VybmFtZSI6ImF6MTIiLCJwYXNzd29yZCI6IiQyYiQxMCR0aEJkQ1Nid0JjSVI1OFJnZk9vbnIuZndyRnZ5enBDYWdDbFNzU01TVGhVUk1CODdjUi9RLiIsIm5hbWUiOiJNciBBeiBIYWtpbSIsImVtYWlsIjoiY29uZ0BnbWFpbC5jb20iLCJTZWN1cml0eSI6IlNlY3VyaXR5MDAyIiwiY29tcGFueSI6IkFNIENvbXBhbnkiLCJ2ZWhpY2xlTnVtYmVyIjoidmN0MTIzNCIsImljTnVtYmVyIjoiMDIwNDI2MDgyMjA3IiwicGhvbmVOdW1iZXIiOiIwMTMxMTA0MDE1Iiwicm9sZSI6IlZpc2l0b3IiLCJyZWNvcmRzIjpbXSwiaWF0IjoxNjg3ODA5MzQwLCJleHAiOjE2ODc4MTY1NDB9.47MJI3qI-8CnqYn6ea09v7KMvhgj7JTY-KeSsaSoYEk
+
+
+###
+PATCH http://localhost:3000/updateVisitor
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDk5YzA5YTEyNzQzMjk4MDdlZWEyYzkiLCJ1c2VybmFtZSI6ImF6aXp1bDEyIiwicGFzc3dvcmQiOiIkMmIkMTAkZlpObm05dHVMaGtVNjBMTUppL0ZVZXluSGg4V3djTjU1VFV6bk05ZzhEZHFGTmtSYUtMZnEiLCJuYW1lIjoiTXIgQXppenVsIEhha2ltIiwiZW1haWwiOiJqaWp1bEBnbWFpbC5jb20iLCJTZWN1cml0eSI6IlNlY3VyaXR5MDAxIiwiY29tcGFueSI6IkFaIENvbXBhbnkiLCJ2ZWhpY2xlTnVtYmVyIjoiQk1LMTIzNCIsImljTnVtYmVyIjoiMDIwNDA2MDgyMjA3IiwicGhvbmVOdW1iZXIiOiIwMTMxMTAxMDE1Iiwicm9sZSI6IlZpc2l0b3IiLCJyZWNvcmRzIjpbXSwiaWF0IjoxNjg3Nzk3OTQ4LCJleHAiOjE2ODc4MDUxNDh9.58oEA605B_I9-2CVGO3npCoX5b09z8iPyGP_5ESYzQk
+Content-Type: application/json 
+    
+    {
+        "password":"1234",
+        "name":"Mr Azizul Hakim",
+        "icNumber":"020406082207",
+        "company":"AZ Company",
+        "vehicleNumber":"WYF1313",
+        "email":"jijul@gmail.com",
+        "phoneNumber":"0131101015"
+    }
+
+
+###
+DELETE http://localhost:3000/deleteVisitor
+Authorization: Bearer 
