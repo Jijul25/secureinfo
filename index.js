@@ -6,7 +6,7 @@ const bcrypt = require('bcrypt');
 const app = express();
 const port = 3000;
 const saltRounds = 10;
-const uri = "mongodb+srv://jolliey25:Zzul2501@dataproject.ou3pfdk.mongodb.net/";
+const uri = "mongodb+srv://Jijul:Zzul2501@cluster0.ta9gou3.mongodb.net/";
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
